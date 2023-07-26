@@ -1,0 +1,17 @@
+
+cloud_pct.inner.HTML = response.cloud_pt 
+temp.inner.HTML = response.tmp
+feels_like.inner.HTML = response.feels_like 
+humidity.inner.HTML = response.humidity
+min_temp.inner.HTML = response.min_temp
+max_temp.inner.HTML = response.max_temp
+wind_speed.inner.HTML = response.wind_speed
+wind_degrees.inner.HTML = response.wind_degrees
+sunrise.inner.HTML = response.sunrise
+sunset.inner.HTML = response.sunset
+
+
+
+submit.addEventListener("click", (e)=>{
+    getWeather(e.target.value)
+})
